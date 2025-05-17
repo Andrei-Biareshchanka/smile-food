@@ -1,9 +1,9 @@
 import { useContext } from 'react';
 
-import logoImg from './assets/logo.jpg';
-import Button from './components/UI/Button';
-import CartContext from './store/CartContext';
-import UserProgressContext from './store/UserProgressContext';
+import logoImg from '../assets/logo.jpg';
+import CartContext from '../store/CartContext';
+import UserProgressContext from '../store/UserProgressContext';
+import Button from './UI/Button';
 
 export default function Header() {
   const cartCtx = useContext(CartContext);
