@@ -83,7 +83,7 @@ export default function Checkout() {
           few minutes.
         </p>
         <p className='modal-actions'>
-          <Button onClick={handleClose}>Okay</Button>
+          <Button onClick={handleFinish}>Okay</Button>
         </p>
       </Modal>
     );
